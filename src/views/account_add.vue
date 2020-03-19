@@ -1,7 +1,7 @@
 <template>
   <div id="list">
     <div id="content">
-      <h4>添加账号</h4>
+      <h4>增加账号</h4>
       <div class="change">
         <el-form
           label-position="right"
@@ -10,6 +10,9 @@
           :rules="rules"
           ref="addform"
         >
+
+
+        
           <el-form-item label="账号" prop="name">
             <el-input v-model="addform.name"></el-input>
           </el-form-item>
