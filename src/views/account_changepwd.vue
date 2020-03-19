@@ -11,7 +11,7 @@
           label-width="100px"
           class="demo-ruleForm"
         >
-          <el-form-item label="原密码" prop="oldpwd">
+          <el-form-item label="旧密码" prop="oldpwd">
             <el-input v-model="ruleForm.oldpwd"></el-input>
           </el-form-item>
           <el-form-item label="密码" prop="newpwd">
